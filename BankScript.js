@@ -11,7 +11,6 @@ while (doProcessing) {
         "4. Exit"
     );
     if (choice === "1") {
-        // Deposit Logic
         let deposit = parseFloat(prompt("Enter the amount that you want to deposit:"));
         if (isNaN(deposit) || deposit <= 0) {
             alert("Invalid amount. Please enter a positive number.");
